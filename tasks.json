@@ -1,0 +1,72 @@
+
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "F4",
+            "group": "build",
+            "command": "make",
+            "type": "shell",
+            "args": [
+                "-j8",
+                "app"
+            ],
+            "presentation": {
+                "reveal": "always",
+            },
+        },
+        {
+            "label": "F5",
+            "command": "make",
+            "type": "shell",
+            "args": [
+                "-j8",
+                "flash"
+            ],
+            "presentation": {
+                "reveal": "always",
+            },
+        },
+        {
+            "label": "F8",
+            "command": "make",
+            "type": "shell",
+            "args": [
+                "-j8",
+                "flash",
+                "monitor"
+            ],
+            "presentation": {
+                "reveal": "always",
+            },
+        },
+        {
+            "label": "F9",
+            "command": "make",
+            "type": "shell",
+            "args": [
+                "clean"
+            ],
+            "presentation": {
+                "reveal": "always",
+            },
+        },
+        {
+            "label": "F12",
+            "type":"shell",
+            "windows": {
+                "command": "C:/msys32/mingw32.exe",
+                "args": [
+                    "make",
+                    "menuconfig"
+                ]
+            },
+            "presentation": {
+                "reveal": "always",
+            },
+            "problemMatcher": []
+        }
+    ]
+}

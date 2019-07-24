@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "name": "ESP32-Win",
+            "includePath": [
+                "${workspaceRoot}",
+                "${workspaceRoot}/build/include",
+                "${workspaceRoot}/build/",
+                "C:/msys32/home/User/esp/ESP8266_RTOS_SDK/components/**",
+
+                
+                "C:/msys32/opt/xtensa-lx106-elf/include",
+                "C:/msys32/opt/xtensa-lx106-elf/xtensa-lx106-elf/include",
+                "C:/msys32/opt/xtensa-lx106-elf/xtensa-lx106-elf/include/c++/5.2.0",
+                "C:/msys32/opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/5.2.0/include",
+                "C:/msys32/opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/5.2.0/include-fixed"
+            ],  
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "${workspaceRoot}",
+                    "${workspaceRoot}/build/include",
+                    "${workspaceRoot}/build/",
+                    "C:/msys32/home/User/esp/ESP8266_RTOS_SDK/components/**",
+    
+                   
+                    "C:/msys32/opt/xtensa-lx106-elf/include",
+                    "C:/msys32/opt/xtensa-lx106-elf/xtensa-lx106-elf/include",
+                    "C:/msys32/opt/xtensa-lx106-elf/xtensa-lx106-elf/include/c++/5.2.0",
+                    "C:/msys32/opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/5.2.0/include",
+                    "C:/msys32/opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/5.2.0/include-fixed"
+                    ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceRoot}/.vscode/browse.vc.db"
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

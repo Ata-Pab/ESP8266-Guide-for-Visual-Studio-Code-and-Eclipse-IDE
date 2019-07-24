@@ -1,5 +1,5 @@
 •	Open Eclipse C/C++ IDE
-•	Follow;   “File”   “Import”  “C/C++”  “Existing Code as Makefile Project”
+•	Follow;   'File': 'Import': 'C/C++': 'Existing Code as Makefile Project'
 
 
 

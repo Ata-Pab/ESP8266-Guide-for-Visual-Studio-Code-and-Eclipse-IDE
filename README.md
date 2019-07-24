@@ -4,7 +4,9 @@
 
 - Follow;  **File**  **>>**  **Import** **>>**  **C/C++** **>>** **Existing Code as Makefile Project**
 
-![Existing Code as Makefile Project](https://user-images.githubusercontent.com/52567674/61786202-da358e80-ae15-11e9-89ff-edb318674e69.jpg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/52567674/61786202-da358e80-ae15-11e9-89ff-edb318674e69.jpg">
+</p>
 
 - Choose an example project  from  `C:\msys32\home\User\esp\ESP8266_RTOS_SDK\examples`  file.
 
@@ -14,7 +16,9 @@
 
 - Right Click to Project File and follow;  **Properties** **>>** **C/C++ Build** **>>** **Environment** **>>** **Add**
 
-![C_Cpp_Build_Environment](https://user-images.githubusercontent.com/52567674/61787152-e15d9c00-ae17-11e9-8a21-829b3a6dedb8.jpg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/52567674/61787152-e15d9c00-ae17-11e9-8a21-829b3a6dedb8.jpg">
+</p>
 
 **Name**: BATCH_BUILD, **Value**: 1
 **Name**: IDF_PATH, **Value**:  "C:/msys32/home/User/esp/ESP8266_RTOS_SDK"
@@ -28,7 +32,9 @@ additions were made.
 
 **C/C++ Build: Behavior**  **>>**  Check  **Enable parallel build**
 
-![Enable Parallel Build](https://user-images.githubusercontent.com/52567674/61787337-41ecd900-ae18-11e9-9b5f-f50e95621f54.jpg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/52567674/61787337-41ecd900-ae18-11e9-9b5f-f50e95621f54.jpg">
+</p>
 
 - Right click to Project File **>>**  **Add Folder**  **>>**  Add a file which name is **libraries**
 
@@ -36,11 +42,15 @@ additions were made.
 
 This step provides adding ESP8266 Libraries to Eclipse IDE. 
 
-![Components](https://user-images.githubusercontent.com/52567674/61787313-36011700-ae18-11e9-95d7-9b6965614b94.jpg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/52567674/61787313-36011700-ae18-11e9-95d7-9b6965614b94.jpg">
+</p>
 
 **_Flash Configuration_**:  Project File (Right click) **>>** **Build Targets** **>>** **create** **>>** **flash** 
 
-![Flash](https://user-images.githubusercontent.com/52567674/61787428-6ea0f080-ae18-11e9-9150-d88d7dc3eda2.jpg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/52567674/61787428-6ea0f080-ae18-11e9-9150-d88d7dc3eda2.jpg">
+</p>
 
 Other Files which ones are needed for compiling are on the follows;
 
@@ -54,15 +64,21 @@ Other Files which ones are needed for compiling are on the follows;
 
 **_.cproject_**
 
-![_cproject](https://user-images.githubusercontent.com/52567674/61787228-0e11b380-ae18-11e9-884b-8395c9624842.jpg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/52567674/61787228-0e11b380-ae18-11e9-884b-8395c9624842.jpg">
+</p>
 
 **_.project_**
 
-![_project](https://user-images.githubusercontent.com/52567674/61787278-25e93780-ae18-11e9-9779-c50730d28590.jpg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/52567674/61787278-25e93780-ae18-11e9-9779-c50730d28590.jpg">
+</p>
 
 After the additions given above, the contents of the file should be as follows;
 
-![File_index](https://user-images.githubusercontent.com/52567674/61787388-5f21a780-ae18-11e9-9734-ff202c5d6506.jpg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/52567674/61787388-5f21a780-ae18-11e9-9734-ff202c5d6506.jpg">
+</p>
 
 Finally, you can build and flash the project.
 
@@ -74,7 +90,9 @@ Finally, you can build and flash the project.
 
 - Project file has copied from **examples** folder to **esp** folder. 
 
-![examples_esp](https://user-images.githubusercontent.com/52567674/61787367-53ce7c00-ae18-11e9-98e8-8f8508c525ea.jpg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/52567674/61787367-53ce7c00-ae18-11e9-98e8-8f8508c525ea.jpg">
+</p>
 
 Some changes should be done in the project file. (For this example it is "pwm", you can select another project file). Steps followed;
 
@@ -238,11 +256,15 @@ The purpose of the above file changes;
 - Runnig the **MINGW32 - bash** as terminal
 - Showing location of the **_xtensa-lx106f-elf-gcc_** compiler
 
-![migw32_bash_build](https://user-images.githubusercontent.com/52567674/61787516-9c863500-ae18-11e9-87dc-229439bafb96.jpg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/52567674/61787516-9c863500-ae18-11e9-87dc-229439bafb96.jpg">
+</p>
 
 When you open a project file with Visual Studio Code, it should look like the following;
 
-![visual studio code index](https://user-images.githubusercontent.com/52567674/61787544-ab6ce780-ae18-11e9-8e05-283ae56858b4.jpg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/52567674/61787544-ab6ce780-ae18-11e9-8e05-283ae56858b4.jpg">
+</p>
 
 - CmakeList and MakeFile files should absolutely exist.
 
@@ -252,15 +274,14 @@ When you open a project file with Visual Studio Code, it should look like the fo
 
 - Project can be build with `make build` command.
 
-![make build vsc](https://user-images.githubusercontent.com/52567674/61787469-7bbddf80-ae18-11e9-8287-9cf0805d9969.jpg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/52567674/61787469-7bbddf80-ae18-11e9-8287-9cf0805d9969.jpg">
+</p>
 
 - Compiled project (code) can be flashed to the ESP8266 Card
 
-![make flash vsc](https://user-images.githubusercontent.com/52567674/61787493-8e381900-ae18-11e9-996d-fb0b400774a6.jpg)
-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/52567674/61787493-8e381900-ae18-11e9-996d-fb0b400774a6.jpg">
+</p>
 
 ATALAY PABUŞÇU
-
-
-
-
